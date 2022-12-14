@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+footer {
+    background-color: lavender;
+    margin-top: 2vh;
+    padding: 2vh 0;
+    
+}

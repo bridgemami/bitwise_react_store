@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+.pictures {
+    max-width: 150px;
+    max-height: 150px;
+    align-self: center;
+}
+
+.pictures:hover {
+    max-width: 170px;
+    max-height: 170px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.no-border {
+    border: none;
+}
+ 
+.price {
+    align-self: flex-end;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.heading-link:hover {
+    font-size: 135%;
+}
