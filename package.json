@@ -2,7 +2,7 @@
   "name": "store",
   "private": true,
   "version": "0.0.0",
-  "homepage" : "https://bridgemami.github.io/bitwise_react_store/",
+  "homepage": "https://bridgemami.github.io/bitwise_react_store/",
   "type": "module",
   "scripts": {
     "dev": "vite",
