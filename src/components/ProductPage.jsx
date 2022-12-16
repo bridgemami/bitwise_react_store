@@ -27,7 +27,7 @@ export default function ProductPage() {
     <main className="container">
       <div className="row">
         <section
-          className="card col-12 col-md-6 col-lg-3 p-5 flex"
+          className="col-6   p-5 flex"
           key={item.id}
         >
           <img
@@ -45,7 +45,7 @@ export default function ProductPage() {
               Buy Now
             </button>
             <h5 className="mt-auto col-6 text-start price">
-              <strong>${item.price.toFixed(2)}</strong>
+              <strong>${Number(item.price).toFixed(2)}</strong>
             </h5>
           </div>
         </section>
